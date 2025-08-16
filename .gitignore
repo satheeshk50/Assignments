@@ -8,5 +8,6 @@ wheels/
 __init__.py
 
 # Virtual environments
-.venv
 .env
+.venv
+

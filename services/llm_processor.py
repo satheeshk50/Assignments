@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 class LLMProcessorService:
     def __init__(self):
         self.client = ChatGoogleGenerativeAI(
-            model="gemini-1.5-pro",
+            model="gemini-2.5-pro",
             temperature=0.2,
             max_output_tokens=400,
             top_p=0.95,
